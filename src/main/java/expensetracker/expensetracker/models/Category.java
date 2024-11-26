@@ -1,2 +1,9 @@
-package expensetracker.expensetracker.models;public class Category {
+package expensetracker.expensetracker.models;
+
+public enum Category {
+    GROCERY,
+    TRANSPORTATION,
+    EDUCATION,
+    ENTERTAINMENT,
+    OTHER;
 }
